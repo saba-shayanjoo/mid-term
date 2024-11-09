@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section2{
+    width: 1440px;
+    margin: 0 auto;
+    height: 1115px;
+    background-color: rgb(240, 240, 240);
+    padding-top: 100px;
+    
+    position: relative;
+    & .upcoming{
+        position: absolute;
+        left: 416px;
+       top: 160px;
+       padding-top: 100px;
+        
+        
+        & .parag{font-size: 48px;
+            font-weight: 600;color: black;}
+        & .button-up{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           height: 66px;
+        width: 340px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 60px;
+        margin-left: 114px;
+        display: flex;
+        gap: 44px;
+        align-items: center;
+        justify-content: center;
+        & .button{
+            border: none;
+        font-size: 18px;
+        color: gray;
+      &:first-of-type{
+            background-color: hsla(216, 90%, 60%, 0.8);
+            padding: 10px;
+            color: white;
+          
+            border-radius: 10px;
+         }
+            
+        }
+        }
+    }
+    & .cards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 20px;
+        
+        
+         & .card{
+            
+            margin-top: 400px;
+            width: 380px;
+        height: 457px;
+       background-color: white;
+       border-radius: 50px;
+
+       & img{
+        border-radius: 50px;
+        margin:20px ;
+       }
+      
+
+        & .first{
+            margin-left: 30px;
+            display: flex;
+            align-items: center;
+           gap:12px;
+
+            & .button{
+                display: inline;
+                background-color:  hsla(331, 84%, 93%, 1);
+                color:  hsla(329, 81%, 71%, 1);
+                border-radius: 20px;
+                padding: 5px 30px;
+                font-size: 14px;
+            }
+            & .days{
+                font-size: 14px;
+                font-weight: 500;
+                color:gray;
+            }
+           
+        }
+        & .second{
+            font-size: 24px;
+            font-weight: 600;
+            margin-left: 30px;
+        }
+        & .third{display: flex;
+            margin-left: 30px;
+            & .price{font-size: 18px; font-weight: 600;color: black;}
+            & .person{font-size: 18px;font-weight: 500;color: gray;}
+            & .book{
+                background-color: rgba(47, 138, 190, 0.318);
+            border-radius: 10px;
+        font-size: 14px;
+    color: var(--blue-primary);
+    padding: 10px 20px;
+    margin-left: 90px;
+    
+
+
+}
+        }
+
+
+        }
+        
+    }
+    
+}

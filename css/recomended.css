@@ -1,0 +1,75 @@
+.section4{
+    width: 1440px;
+    height: 770px;
+    margin: 0 auto;
+    background-color:  rgb(240, 240, 240);
+    & .title{
+        font-size: 48px;
+        font-weight: 600;
+        margin-left: 385px;
+        padding-top:120px ;
+        
+    }
+    & .menu{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 38px;
+        margin-top: 40px;
+        & .item{
+            font-size: 18px;
+        font-weight: 600;
+        color: gray;
+        &:first-of-type{
+            background-color: white;
+            border-radius: 20px;
+            color:  hsla(216, 90%, 60%, 0.8);
+            padding:0px 10px;
+        }
+
+        }
+
+    }
+    & .cards{
+        
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        
+        & .card{position: relative;
+            width: 280px;
+            padding: 10px;
+            border-radius: 20px;
+            
+            background-color:white;
+            & .name{font-size:18px ;font-weight: 600;}
+            & .locations{
+                display: flex;
+                align-items: center;
+                & .name{
+                    color: gray;
+                font-size: 14px;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+            }
+            & .rate{position: absolute;
+                top: 20px;
+                left: 200px;
+                display: flex;
+                align-items: center;
+                background-color: white;
+                border-radius: 15px;
+                padding: 0 10px;
+                & .number{
+                    font-size:12px ;
+                    font-weight: 500;
+                }
+
+            }
+        }
+    }
+
+}
